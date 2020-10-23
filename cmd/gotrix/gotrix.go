@@ -100,6 +100,14 @@ func cmdCreateApp() error {
 }
 
 func cmdCreateComponent() error {
+	name := fs.Arg(1)
+	if name == "" {
+		fprintf(os.Stderr, "Usage:\n\n  %s %s [component name]\n",
+			Yellow.SPrint(appName),
+			Blue.SPrint("create-app"))
+		os.Exit(2)
+	}
+	echo(Blue, `Creating new component "%s".`, name)
 	return nil
 }
 
