@@ -1,4 +1,4 @@
-# cli [![GoDoc](https://godoc.org/github.com/gotrix/cli?status.svg)](http://godoc.org/github.com/gotrix/cli) [![Go Report](https://goreportcard.com/badge/github.com/gotrix/cli)](https://goreportcard.com/report/github.com/gotrix/cli)
+# cli [![GoDoc](https://godoc.org/github.com/gotrix/cli?status.svg)](http://godoc.org/github.com/gotrix/cli) [![Go Report](https://goreportcard.com/badge/github.com/gotrix/cli)](https://goreportcard.com/report/github.com/gotrix/cli) ![CodeQL](https://github.com/gotrix/cli/workflows/CodeQL/badge.svg)
 GOTRIX command line helper.
 
 ## Installation
