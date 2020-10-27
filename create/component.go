@@ -73,7 +73,7 @@ func (*Component) Component(ctx gotrix.Context, params gotrix.ComponentParams) (
 	<p>Kind Regards,<br/>{{.Data("name")}}</p>
 </div>`
 
-	componentCss = `.%NAME-component {
+	componentCss = `.%NAME%-component {
 	font-family: sans-serif;
 	color: #333;
 }`
